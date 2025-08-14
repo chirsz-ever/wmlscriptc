@@ -26,10 +26,11 @@ wmlscript = static_library(
 	include_directories: incdir,
 )
 
-# TODO: generate wsopcodes.h by make-op-table wsasm.h
+# generate wsopcodes.h:
+# sed 1p make-op-table.in | perl - wsasm.h > wsopcodes.h
 
-# TODO: generate wsgram.{h,c} from wsgram.y,
-# YFLAGS = -d -p ws_yy_
+# generate wsgram.{h,c}:
+# bison -d -p ws_yy_ -o wsgram.c wsgram.y
 
 executable(
 	'wmlsc',
