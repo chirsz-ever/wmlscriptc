@@ -2,7 +2,7 @@
 
 Compiler and disassembler for WMLScript.
 
-The code is taken from [the Kannel project](https://www.kannel.org) at SVN revision 5336. Files in `wmlscriptc`
+The code is taken from [the Kannel project](https://www.kannel.org) at SVN revision 5336. Files in `wmlscript`
 directory are unmodified. With some adaptation work and the meson scripts, it can be built easily.
 
 The building process is as follows:
