@@ -2,7 +2,7 @@ project(
 	'wmlscriptc',
 	'c',
 	version : '1.4.6-r5336',
-	license : 'BSD-4-Clause',
+	license : 'BSD-2-Clause',
 	license_files : 'LICENSE',
 	default_options : [
 		'c_std=c89',
