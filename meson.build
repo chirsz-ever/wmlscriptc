@@ -14,6 +14,6 @@ if cc.check_header('unistd.h')
 	add_global_arguments('-DHAVE_UNISTD_H=1', language : 'c')
 endif
 
-add_global_arguments('-D_POSIX_C_SOURCE=2', '-D_ISOC99_SOURCE=1', language : 'c')
+add_global_arguments('-D_POSIX_C_SOURCE=2', '-D_ISOC99_SOURCE=1', '-D_C99_SOURCE=1', language : 'c')
 
 subdir('wmlscript')
